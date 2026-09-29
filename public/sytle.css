@@ -1,5 +1,8 @@
 header {
   background-color: #7c3aed;
-  position:absolute;
-  margin-top: 10px;
 }
+
+.logo-header {
+  width: 100px;
+  height: auto;
+}   
