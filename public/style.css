@@ -1,0 +1,18 @@
+header {
+  background-color: #7c3aed;
+}
+
+.logo-header {
+  width: 100px;
+  height: auto;
+}   
+
+footer {
+  background-color: #7c3aed;
+  color: #14B8A6;
+}
+
+.btn-primary {
+  background-color: #14B8A6;
+  color: #7c3aed;
+}

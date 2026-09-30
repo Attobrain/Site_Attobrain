@@ -4,22 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attobrain</title>
-    <link rel="stylesheet" href="/sytle.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     
 <header class="navbar navbar-expand-lg">
-    <container class="container">
-    <img src="/img/logo_escrita.png" alt="Logo" class="logo-header">
-    <div class="navbar-nav">
-    <a class="nav-link" href="/">Inicio</a>
-    <a class="nav-link" href="/projetos">Projetos</a>
-    <a class="nav-link" href="/como">Como Funciona</a>
-    <a class="nav-link" href="/equipe">Equipe</a>
-    <a class="nav-link" href="/contato">Contato</a>
+
+    <div class="container d-flex align-items-center justify-content-between">
+
+        <a href="/">
+            <img src="/img/logo_escrita.png" alt="Attobrain" class="logo-header">
+        </a>
+
+        <nav class="navbar-nav flex-row gap-4">
+            <a class="nav-link" href="/">Início</a>
+            <a class="nav-link" href="/projetos">Projetos</a>
+            <a class="nav-link" href="/como">Como Funciona</a>
+            <a class="nav-link" href="/equipe">Equipe</a>
+            <a class="nav-link" href="/contato">Contato</a>
+        </nav>
+
     </div>
-    </container>
+
 </header>
 
 <main class="container">
@@ -30,7 +37,7 @@
     <a class="btn btn-secondary" href="/como">Como Funciona</a>
 </div>
 
-<section>
+<section class="features">
     <h1>EEG/BCI</h1>
     <h2>Aquisição e análise de sinais cerebrais relacionados à atenção.</h2>
 
